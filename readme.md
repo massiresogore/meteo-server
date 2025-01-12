@@ -80,4 +80,18 @@ création de
 ```
 dans le fichier config/packages/api_platform.yaml, pour exposer l'api
 
+# Authentification user
+## Doc : https://api-platform.com/docs/symfony/jwt/
+```bash
+    composer require lexik/jwt-authentication-bundle
+```
+## Généré un hash pasword : -1
+```bash
+ symfony console security:hash-password massire
+  ```
+## Créer un sql Json, Insérer un User, password généré par la commande au dessus
+```bash
+JSON_ARRAY('admin')  
 
+insert into user values(null,"massire@gmail.com",json_array('admin'), "$2y$13$XrRtnvOgfZ98SgSIprjOnu5FGz7l2amnDFAL2JGW7Rxo6wnaIA3xW");
+```
