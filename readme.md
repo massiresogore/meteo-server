@@ -56,6 +56,17 @@ lien doc => https://symfony.com/doc/current/doctrine/associations.html
   "personne": "/api/user1"
 }
 
-
+# Implementation service meteo
+création de
+- dto
+- service, dépendence
+```bash
+composer require symfony/http-client
+```
+- ajout de ceci dans config/packages/api_platform.yaml, pour exposer l'api
+```bash
+    mapping:
+        paths: ['%kernel.project_dir%/src']
+```
 
 
