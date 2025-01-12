@@ -44,6 +44,9 @@ symfony var:export --multiline
 ```
 ### Image de confguration mysql workbench
 ![image de configuration mysql workbench](./public/image/configuration-mysql-workbench.png)
+### Important:
+A chaque fois que vous redémarrez docker, le numéro du port change, donc penser à mettre à jour ce numéro dans mysql workbench ou autre
+
 
 
 
