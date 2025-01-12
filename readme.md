@@ -57,16 +57,27 @@ lien doc => https://symfony.com/doc/current/doctrine/associations.html
 }
 
 # Implementation service meteo
-création de
-- dto
-- service, dépendence
+## dépendence
 ```bash
 composer require symfony/http-client
 ```
+## création de
+- dto
+- service, 
 - ajout de ceci dans config/packages/api_platform.yaml, pour exposer l'api
 ```bash
     mapping:
         paths: ['%kernel.project_dir%/src']
 ```
+# Implementation service adresse gouv
+création de
+- dto
+- service
+- ajout de ceci  
+```bash
+    mapping:
+        paths: ['%kernel.project_dir%/src']
+```
+dans le fichier config/packages/api_platform.yaml, pour exposer l'api
 
 
