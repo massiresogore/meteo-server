@@ -47,6 +47,14 @@ symfony var:export --multiline
 ### Important:
 A chaque fois que vous redémarrez docker, le numéro du port change, donc penser à mettre à jour ce numéro dans mysql workbench ou autre
 
+# Relation entre user et adresse
+lien doc => https://symfony.com/doc/current/doctrine/associations.html
+
+### pour lier une adresse un utilisateur
+{
+  "name": "22 rue M"
+  "personne": "/api/user1"
+}
 
 
 
