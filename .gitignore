@@ -8,6 +8,7 @@
 /var/
 /vendor/
 /mysql/
+mysql
 ###< symfony/framework-bundle ###
 
 ###> lexik/jwt-authentication-bundle ###
