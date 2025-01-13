@@ -18,3 +18,5 @@ Content-Type: application/merge-patch+json
 - le reste
 Accept : application/ld+json
 Content-Type: application/ld+json
+
+- Configuration Jwt, Register
