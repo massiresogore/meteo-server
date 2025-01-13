@@ -36,6 +36,9 @@ security:
     # Note: Only the *first* access control that matches will be used
     access_control:
         - { path: ^/api/users, roles: PUBLIC_ACCESS, methods: [POST] }
+        - { path: ^/api/users/, roles: [ROLE_ADMIN], methods: [PUT, DELETE,PATCH] }
+        - { path: ^/api/users, roles: [ROLE_USER], methods: [GET, PUT,PATCH] }
+        - { path: ^/api/adresses, roles: [ROLE_ADMIN,ROLE_USER], methods: [GET, PUT, DELETE,POST,PATCH] }
         - { path: ^/$, roles: PUBLIC_ACCESS } # Allows accessing the Swagger UI
         - { path: ^/api/, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/api, roles: PUBLIC_ACCESS } # Allows accessing the Swagger UI

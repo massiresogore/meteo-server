@@ -12,6 +12,7 @@ use Symfony\Component\Serializer\Annotation\Groups;
     normalizationContext: ['groups' => ['read']],
     denormalizationContext: ['groups' => ['write']],
 )]
+
 class Adresse
 {
     #[ORM\Id]
