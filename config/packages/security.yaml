@@ -36,6 +36,7 @@ security:
     # Note: Only the *first* access control that matches will be used
     access_control:
         - { path: ^/api/users, roles: PUBLIC_ACCESS, methods: [POST] }
+        - { path: ^/api/weather/Reims, roles: PUBLIC_ACCESS, methods: [GET] }
         - { path: ^/api/users/, roles: [ROLE_ADMIN], methods: [PUT, DELETE,PATCH] }
         - { path: ^/api/users, roles: [ROLE_USER], methods: [GET, PUT,PATCH] }
         - { path: ^/api/adresses, roles: [ROLE_ADMIN,ROLE_USER], methods: [GET, PUT, DELETE,POST,PATCH] }

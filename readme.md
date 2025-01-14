@@ -95,3 +95,47 @@ JSON_ARRAY('admin')
 
 insert into user values(null,"massire@gmail.com",json_array('admin'), "$2y$13$XrRtnvOgfZ98SgSIprjOnu5FGz7l2amnDFAL2JGW7Rxo6wnaIA3xW");
 ```
+
+
+## cette requette
+https://api.openweathermap.org/geo/1.0/direct?q=reims&limit=1&appid=598376d6b5b90d5d074809b11a251ed2
+[
+  {
+    "name": "Reims",
+    "local_names": {
+      "cv": "Реймс",
+      "ka": "რეიმსი",
+      "he": "ריימס",
+      "lv": "Reimsa",
+      "ce": "Реймс",
+      "el": "Ρενς",
+      "hu": "Reims",
+      "ja": "ランス",
+      "hy": "Ռեյմս",
+      "mk": "Ремс",
+      "zh": "兰斯",
+      "ko": "랭스",
+      "eo": "Reims",
+      "oc": "Rems",
+      "fr": "Reims",
+      "cs": "Remeš",
+      "mr": "रेंस",
+      "be": "Рэймс",
+      "la": "Durocortorum",
+      "th": "แร็งส์",
+      "ru": "Реймс",
+      "uk": "Реймс",
+      "fa": "رنس",
+      "ca": "Rems",
+      "bg": "Реймс",
+      "ar": "ريمس",
+      "sr": "Ремс",
+      "lt": "Reimsas",
+      "kk": "Реймс"
+    },
+    "lat": 49.2577886,
+    "lon": 4.031926,
+    "country": "FR",
+    "state": "Grand Est"
+  }
+]
