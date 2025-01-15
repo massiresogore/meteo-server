@@ -3,6 +3,12 @@
 ## Installation pour le clien
 npm run dev
 
+# Nb
+apres avoir demarrer le programe , noublier pas de regenerer la clé pour le fonctionnement du token
+```bash
+php bin/console lexik:jwt:generate-keypair
+```
+
 # Installation de backend
 ```bash
 symfony serve
