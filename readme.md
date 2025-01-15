@@ -1,4 +1,24 @@
 # Application Météo
+
+## Installation pour le clien
+npm run dev
+
+# Installation de backend
+```bash
+symfony serve
+docker compose up
+
+
+Cette commande affoche la configuration mysql de docker
+symfony console var:export --multiline 
+
+ceci va safficher
+export DATABASE_URL=mysql://root:password@127.0.0.1:51769/meteo_db?sslmode=disable&charset=utf8mb4&serverVersion=8.0.40-1.el9
+on recupère le port (51769) puis on configure dans la base de donné comme worknech par exemple
+
+
+```
+
 ## 
 ```bash
 symfony console cache:clear
