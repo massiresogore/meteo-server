@@ -16,7 +16,7 @@ docker compose up
 
 
 Cette commande affoche la configuration mysql de docker
-symfony console var:export --multiline 
+symfony var:export --multiline 
 
 ceci va safficher
 export DATABASE_URL=mysql://root:password@127.0.0.1:51769/meteo_db?sslmode=disable&charset=utf8mb4&serverVersion=8.0.40-1.el9
